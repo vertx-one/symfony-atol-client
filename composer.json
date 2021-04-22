@@ -1,0 +1,25 @@
+{
+    "name": "vertx-one/symfony-atol-client",
+    "type": "library",
+    "description": "Symfony Client for online.atol.ru API v4",
+    "homepage": "https://github.com/vertx-one/symfony-atol-client",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rinat Khalekov",
+            "email": "rh@ristudio.ru"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "symfony/http-client": "^4.2|^5.0",
+        "symfony/serializer": ">=4.2"
+    },
+    "autoload": {
+        "psr-4": { "VertxOne\\Symfony\\Atol\\": "src" },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    },
+    "minimum-stability": "dev"
+}
