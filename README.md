@@ -19,9 +19,6 @@ ATOL_COMPANY_INN=""
 Добавляем в config.yaml
 
 ```yaml
-parameters:
-  atol.is_test_mode: '%env(ATOL_IS_TEST_MODE)%'
-
 services:
   VertxOne\Symfony\Atol\Client:
     arguments: [ '%env(ATOL_IS_TEST_MODE)%', '%env(string:ATOL_LOGIN)%', '%env(string:ATOL_PASSWORD)%', '%env(string:ATOL_COMPANY_GROUP_NAME)%']
