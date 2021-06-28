@@ -1,7 +1,7 @@
 <?php
 
 
-namespace VertxOne\Symfony\Atol;
+namespace VertxOne\Symfony\Atol\Service;
 
 use RuntimeException;
 use Symfony\Contracts\HttpClient\Exception\ClientExceptionInterface;
@@ -11,6 +11,7 @@ use Symfony\Contracts\HttpClient\Exception\ServerExceptionInterface;
 use Symfony\Contracts\HttpClient\Exception\TransportExceptionInterface;
 use Symfony\Contracts\HttpClient\HttpClientInterface;
 use Symfony\Contracts\HttpClient\ResponseInterface;
+use VertxOne\Symfony\Atol\HostTrait;
 
 
 /**
